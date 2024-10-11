@@ -24,7 +24,7 @@ $value1 = 1
 
 $name2 = "CCDLocations"
 $type2 = "String"
-$value2 = "type=smb,connectionString=\\sashcavdprofilescus01.file.core.windows.net\profiles;type=smb,connectionString=\\sashcavdprofileswus201.file.core.windows.net\profiles"
+$value2 = "type=smb,connectionString=\\sashcavdprofilescus01.file.core.windows.net\profiles;type=smb"
 
 $name3 = "VolumeType"
 $type3 = "String"
@@ -50,13 +50,13 @@ $name8 = "ProfileType"
 $type8 = "DWord"
 $value8 = 3
 
-$name9 = "PreventLoginWithFailure"
-$type9 = "DWord"
-$value9 = 1
+# $name9 = "PreventLoginWithFailure"
+# $type9 = "DWord"
+# $value9 = 1
 
-$name10 = "PreventLoginWithTempProfile"
-$type10 = "DWord"
-$value10 = 1
+# $name10 = "PreventLoginWithTempProfile"
+# $type10 = "DWord"
+# $value10 = 1
 
 New-Item -Path $path
 New-ItemProperty -Path $path -Name $name -PropertyType $type -Value $value
@@ -68,5 +68,5 @@ New-ItemProperty -Path $path1 -Name $name5 -PropertyType $type5 -Value $value5
 New-ItemProperty -Path $path1 -Name $name6 -PropertyType $type6 -Value $value6
 New-ItemProperty -Path $path2 -Name $name7 -PropertyType $type7 -Value $value7
 New-ItemProperty -Path $path1 -Name $name8 -PropertyType $type8 -Value $value8
-New-ItemProperty -Path $path1 -Name $name9 -PropertyType $type9 -Value $value9
-New-ItemProperty -Path $path1 -Name $name10 -PropertyType $type10 -Value $value10
+# New-ItemProperty -Path $path1 -Name $name9 -PropertyType $type9 -Value $value9
+# New-ItemProperty -Path $path1 -Name $name10 -PropertyType $type10 -Value $value10
