@@ -48,7 +48,7 @@ $value7 = 1
 
 $name8 = "ProfileType"
 $type8 = "DWord"
-$value8 = 3
+$value8 = 0
 
 $name9 = "PreventLoginWithFailure"
 $type9 = "DWord"
@@ -57,6 +57,22 @@ $value9 = 1
 $name10 = "PreventLoginWithTempProfile"
 $type10 = "DWord"
 $value10 = 1
+
+$name11 = "LockedRetryCount"
+$type11 = "DWord"
+$value11 = 3
+
+$name12 = "LockedRetryInterval"
+$type12 = "DWord"
+$value12 = 15
+
+$name13 = "ReAttachIntervalSeconds"
+$type13 = "DWord"
+$value13 = 15
+
+$name14 = "ReAttachRetryCount"
+$type14 = "DWord"
+$value14 = 3
 
 New-Item -Path $path
 New-ItemProperty -Path $path -Name $name -PropertyType $type -Value $value
@@ -70,3 +86,8 @@ New-ItemProperty -Path $path2 -Name $name7 -PropertyType $type7 -Value $value7
 New-ItemProperty -Path $path1 -Name $name8 -PropertyType $type8 -Value $value8
 New-ItemProperty -Path $path1 -Name $name9 -PropertyType $type9 -Value $value9
 New-ItemProperty -Path $path1 -Name $name10 -PropertyType $type10 -Value $value10
+New-ItemProperty -Path $path1 -Name $name11 -PropertyType $type11 -Value $value11
+New-ItemProperty -Path $path1 -Name $name12 -PropertyType $type12 -Value $value12
+New-ItemProperty -Path $path1 -Name $name13 -PropertyType $type13 -Value $value13
+New-ItemProperty -Path $path1 -Name $name14 -PropertyType $type14 -Value $value14
+
