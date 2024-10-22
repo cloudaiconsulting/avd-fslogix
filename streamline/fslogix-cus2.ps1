@@ -24,7 +24,7 @@ $value1 = 1
 
 $name2 = "CCDLocations"
 $type2 = "String"
-$value2 = "type=smb,connectionString=\\sashcavdprofilescus02.file.core.windows.net\profiles;type=smb,connectionString=\\sashcavdprofileseus202.file.core.windows.net\profiles;type=smb,connectionString=\\sashcavdprofilesewus302.file.core.windows.net\profiles"
+$value2 = "type=smb,connectionString=\\sashcavdprofilescus02.file.core.windows.net\profiles;type=smb,connectionString=\\sashcavdprofileseus202.file.core.windows.net\profiles;type=smb,connectionString=\\sashcavdprofileswus302.file.core.windows.net\profiles"
 
 $name3 = "VolumeType"
 $type3 = "String"
