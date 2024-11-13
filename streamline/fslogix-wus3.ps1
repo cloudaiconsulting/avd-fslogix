@@ -20,7 +20,7 @@ $value = 1
 
 $name1 = "Enabled"
 $type1 = "DWord"
-$value1 = 0
+$value1 = 1
 
 $name2 = "CCDLocations"
 $type2 = "String"
@@ -52,11 +52,11 @@ $value8 = 0
 
 $name9 = "PreventLoginWithFailure"
 $type9 = "DWord"
-$value9 = 0
+$value9 = 1
 
 $name10 = "PreventLoginWithTempProfile"
 $type10 = "DWord"
-$value10 = 0
+$value10 = 1
 
 $name11 = "LockedRetryCount"
 $type11 = "DWord"
